@@ -51,8 +51,25 @@ html {
   background-color: #7521d5;
 }
 
-.test {
-  color: red;
+.card-section {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+}
+.card-section .main-container {
+  background-image: url("../../assets/placeholder-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  color: white;
+}
+.card-section .text-container {
+  margin: 1rem;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
