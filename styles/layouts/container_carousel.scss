@@ -1,0 +1,60 @@
+.carousel {
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: $backgroundcolor;
+    color: #343059;
+
+    &-intro{
+        text-align: center;
+        padding: 2rem;
+
+        &-title{
+            padding: 1rem;
+        }
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+
+    &-card{
+        padding: 0 2rem 0 2rem;
+
+        &-image{
+            background-image: url('./assets/pong.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgb(148, 147, 147);
+        }
+
+        &-title {
+            text-align: center;
+        }
+    }
+
+    &-button{
+        padding: 2rem;
+        font-style: uppercase;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    &-icon{
+        background-image: url('./assets/arrow_right.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 2rem;
+        height: 1rem;
+    }
+    }
+}
