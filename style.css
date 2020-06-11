@@ -48,7 +48,34 @@ html {
 
 .header {
   padding: 1rem;
-  background-color: #7521d5;
+  background-color: #727074;
+}
+
+.header-logo {
+  background-image: url("../assets/logo-mastergamedev-cond-dark.png");
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5rem;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.header-icon-menu {
+  background-image: url("../assets/iconmonstr-menu-1-240.png");
+  padding: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
