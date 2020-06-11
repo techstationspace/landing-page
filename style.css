@@ -64,12 +64,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 85vh;
   color: white;
 }
-.card-section .text-container {
-  margin: 1rem;
+.card-section .main-container .text-container {
+  margin: 2.5rem 1.5rem;
   font-size: 1.5rem;
+}
+.card-section .main-container .text-container .text-container-title {
+  font-size: 4.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

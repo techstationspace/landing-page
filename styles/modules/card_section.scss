@@ -12,11 +12,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 85vh;
     color: white;
-  }
-  .text-container {
-    margin: 1rem;
-    font-size: 1.5rem;
+
+    .text-container {
+      margin: 2.5rem 1.5rem;
+      font-size: 1.5rem;
+
+      .text-container-title {
+        font-size: 4.5rem;
+      }
+    }
   }
 }
