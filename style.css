@@ -47,35 +47,72 @@ html {
 }
 
 .header {
+  top: 0;
+  width: 100%;
+  height: 10%;
   padding: 1rem;
   background-color: #727074;
 }
-
-.header-logo {
-  background-image: url("../assets/logo-mastergamedev-cond-dark.png");
-  padding: 2rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 5rem;
-}
-
-.header-container {
+.header.header-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem;
+  margin: 1rem;
 }
-
-.header-icon-menu {
-  background-image: url("../assets/iconmonstr-menu-1-240.png");
-  padding: 2rem;
+.header.header-container .header-logo {
+  background-image: url("/home/ubuntu/projects/landing-page/styles/assets/logo-mastergamedev-cond-dark.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 5rem;
+  height: 1rem;
+}
+.header.header-container .header-icon-menu {
+  background-image: url("../assets/iconmonstr-menu-1-240.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1rem;
+}
+
+.header-nav {
+  background-color: #534a4a;
+  top: 12.1%;
+  right: 0%;
+  width: 20vw;
+  height: 20vh;
+  padding: 2rm;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-nav .header-link {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.header .header-nav.visible {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-button.close {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-image: url(../../assets/iconmonstr-x-mark-1-240.png);
 }
 
 /*# sourceMappingURL=style.css.map */
