@@ -51,4 +51,72 @@ html {
   background-color: #7521d5;
 }
 
+.prova {
+  min-height: 200vh;
+  background-color: red;
+}
+
+.banner {
+  background-color: #FFC74D;
+  margin-top: -2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  min-height: 5.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.banner-img {
+  flex: 0.5 1 350px;
+  background-image: url(../../assets/image.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 200%;
+  margin: 0 0;
+  align-self: stretch;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 2 1 320px;
+  color: #343059;
+  margin-left: 0.5rem;
+}
+.banner-content-items {
+  flex: 2 1 250px;
+  margin: 1.5rem 1.5rem;
+}
+.banner-content-items-subtitle {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+.banner-content-button {
+  color: #343059;
+  flex: 1 1 175px;
+  padding: 0.5rem 0.5rem;
+  margin: 1.25rem 1.25rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+.banner-content-button-img {
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  background-image: url(../../assets/Shape.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  .banner .banner-img {
+    height: 10rem;
+    flex: 0.5 1 auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
