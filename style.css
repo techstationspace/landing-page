@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -49,6 +50,75 @@ html {
 .header {
   padding: 1rem;
   background-color: #7521d5;
+}
+
+.carousel {
+  padding: 0.5rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #f0edec;
+  color: #343059;
+  font-family: "Roboto", sans-serif;
+}
+.carousel-intro {
+  text-align: center;
+  padding: 1rem;
+}
+.carousel-intro-title {
+  padding: 1rem;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: wrap;*/
+  overflow-x: scroll;
+  max-width: 100%;
+}
+.carousel-card {
+  padding: 0 2rem 0 2rem;
+}
+.carousel-card-image {
+  background-image: url("./assets/pong.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #949393;
+}
+.carousel-card-title {
+  padding: 0.1rem;
+  text-align: center;
+}
+.carousel-button {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.carousel-button-action {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.carousel-button-action a {
+  text-decoration: none;
+}
+.carousel-button-icon {
+  background-image: url("./assets/arrow_right.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 2rem;
+  height: 1rem;
+  cursor: pointer;
+}
+.carousel h2,
+.carousel h6,
+.carousel p {
+  text-shadow: 1px 1px 3px #949393;
 }
 
 /*# sourceMappingURL=style.css.map */
