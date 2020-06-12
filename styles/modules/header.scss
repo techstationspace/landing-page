@@ -1,4 +1,116 @@
 .header {
-  padding: $base-spacer;
-  background-color: $primary-color;
+  padding: $base-spacer/2;
+  background-color: $base-color;
+
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+
+  &.header-main {
+    background-color: $base-color;
+    color: $primary-color;
+  }
+
+  &-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    &.navigation {
+      display: flex;
+      margin: 0;
+      justify-content: flex-end;  
+      align-items: center;
+      } 
+    }
+
+    &-logo {
+      display: flex;
+      flex-direction: row;
+      padding: 2.3rem;
+      background-image: url('../../media/logo.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+         
+    
+      width: 12%;
+      max-width: 204px;
+      min-width: 60px;
+    }
+
+    & .header-nav {
+      display: none;
+
+      &.visible {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: $base-color;
+        opacity: .7;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;      
+      }
+    }
+
+    &-link {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $base-color;
+      
+    }    
+    }
+    
+    
+    &-menu {
+      display: flex;
+      padding: 0 2rem;
+      font-size: 1.2rem;
+
+      &.invisible {
+        display: none;
+      }
+      
+      
+    }
+    & .header-button {
+      display: flex;
+    
+      background-image: url('../../media/Icon\ 24px.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    
+      width: 2rem;
+      height: 2rem; 
+      
+      &.closed {
+        background-image: url('../../media/icons8-close-window-50.png');
+        position: fixed;
+        top: 2.1rem;
+        right: 1rem;
+
+        width: 1.5rem;
+        height: 1.5rem;
+
+      }
+    
+    }
 }
+
+
+
+
+
+
