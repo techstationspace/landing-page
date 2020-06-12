@@ -132,13 +132,11 @@ html {
   .card-section .card-container {
     flex-flow: row;
   }
-
   .card-section .card-container .card {
     margin-bottom: 0;
     margin-right: 1.5rem;
     max-width: 33vw;
   }
-
   .card-section .card:last-child {
     margin-right: 0;
   }

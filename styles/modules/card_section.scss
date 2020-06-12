@@ -85,15 +85,17 @@
 }
 
 @include desktop {
-  .card-section .card-container {
-    flex-flow: row;
-  }
-  .card-section .card-container .card {
-    margin-bottom: 0;
-    margin-right: 1.5rem;
-    max-width: 33vw;
-  }
-  .card-section .card:last-child {
-    margin-right: 0;
+  .card-section {
+    .card-container {
+      flex-flow: row;
+    }
+    .card-container .card {
+      margin-bottom: 0;
+      margin-right: 1.5rem;
+      max-width: 33vw;
+    }
+    .card:last-child {
+      margin-right: 0;
+    }
   }
 }
