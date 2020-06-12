@@ -1,0 +1,19 @@
+
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+//general style
+html {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: $base-text-color;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,li {
+  margin: 0;
+  margin-bottom: 1rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

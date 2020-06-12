@@ -1,4 +1,87 @@
+$header-bg-color: $secondary-color;
+$header-pr-color: white;
+
+
 .header {
-  padding: $base-spacer;
-  background-color: $primary-color;
+  position: fixed;
+  width: 100vw;
+  padding: $base-spacer 0;
+  color: $header-pr-color;
+  background-color: $header-bg-color;
+
+  &.hide_bg {
+    background-color: $transparent;
+  }
+
+  &-container {
+    @extend .container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo {
+    position: relative;
+    z-index: 1;
+    min-height: 3rem;
+    min-width: 6rem;
+    background-image: url('../../assets/logo-mastergamedev-cond-dark.png');
+    background-position: left center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    justify-content: center;
+    align-items: center;
+    background-color: $header-bg-color;
+
+    &.visible {
+      display: flex;
+    }
+  }
+  &-button {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+  }
+  &-icon {
+    padding: 1.5rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #closeMenu {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: white;
+    .header-icon {
+      background-image: url('../../assets/close-w.png');
+    }
+  }
+  #openMenu {
+    .header-icon {
+      background-image: url('../../assets/menu-p.png');
+    }
+  }
+  &-list {
+    list-style: none;
+    & > li {
+      margin-bottom: 1rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &-link {
+    font-size: 2rem;
+
+  }
 }

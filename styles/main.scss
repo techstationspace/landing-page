@@ -3,9 +3,15 @@
 @import "./base/mixin.scss";
 
 @import "./base/elements.scss";
+@import "./base/typography.scss";
 
 //layouts
 @import "./layouts/container.scss";
 
 //modules
 @import "./modules/header.scss";
+@import "./modules/cover.scss";
+@import "./modules/banner.scss";
+@import "./modules/carousel.scss";
+@import "./modules/card_section.scss";
+@import "./modules/footer.scss";
