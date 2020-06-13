@@ -5,13 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../style.css">
+  <script type="text/javascript" src="../header.js"></script>
 </head>
 <body style="min-height: 100vh;">
   <!-- component -->
-  <header class="header">
-    <div class="container">
-      header
-    </div>
-  </header>
+    <header class="header header-container">
+        <div class="header-logo"></div>
+        <div class="header-nav-container">
+          <nav class="header-nav" id="dropDownMenu">
+            <a href="#" class="header-nav-link">BANANA</a>
+            <a href="#" class="header-nav-link">LAMPONE</a>
+            <a href="#" class="header-nav-link">FRUTTO DE LA PASSION</a>
+            <a href="#" class="header-nav-link">KIWI</a>
+          </nav>
+        
+        <div class="header-menu" id="buttonMenu" onclick="toggleMenu('dropDownMenu')">
+
+          <div class="header-menu header-menu-text">
+          MENU
+          </div>
+
+          <div class="header-menu header-menu-icon">
+            <img src="../assets/header-menu-icon.svg">
+          </div>
+        </div>   
+      </div>
+    </header>
 </body>
 </html>
