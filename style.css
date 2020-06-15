@@ -51,4 +51,45 @@ html {
   background-color: #7521d5;
 }
 
+.cover {
+  background-color: #5c0297;
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  min-height: 70vh;
+}
+.cover-image {
+  background-image: url("../assets/Rectangle/2.10.png");
+  float: right;
+  width: 50%;
+}
+.cover-column {
+  width: 100%;
+}
+.cover-title {
+  color: #ffc74d;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+.cover-subtitle {
+  color: #ffb53d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+}
+.cover-btn {
+  text-decoration: none;
+  color: #ffc74d;
+  font-size: 2rem;
+  padding: 3rem 3rem;
+  margin: 4rem;
+}
+.cover-btn-png {
+  max-width: 2rem;
+  max-height: 2rem;
+}
+.cover-contenent {
+  float: left;
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
