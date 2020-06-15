@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
 .carousel {
     padding: 0.5rem;
     margin: 0 auto;
@@ -9,7 +7,6 @@
     flex-direction: column;
     background-color: $backgroundcolor;
     color: #343059;
-    font-family: "Roboto", sans-serif;
 
     &-intro {
         text-align: center;
@@ -70,10 +67,5 @@
             height: 1rem;
             cursor: pointer;
         }
-    }
-    h2,
-    h6,
-    p {
-        text-shadow: 1px 1px 3px rgb(148, 147, 147);
     }
 }
