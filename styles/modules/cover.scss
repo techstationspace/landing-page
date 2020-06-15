@@ -1,0 +1,60 @@
+$primary-color: #ffc74d;
+$secondary-color: #ffb53d;
+$thr-color :#5c0297;
+
+.cover {
+background-color: $thr-color;
+
+  display: flex;
+  padding: 2rem;
+box-sizing: border-box;
+min-height: 70vh;
+
+
+&-image{
+  background-image: url("../assets/Rectangle\ 2.10.png");
+  float: right; width: 50%; 
+}
+
+&-column{
+ width: 100%; 
+ 
+}
+
+&-title{
+color: $primary-color;
+font-family: 'Roboto', sans-serif;
+font-size: 3rem;
+
+}
+
+&-subtitle{
+  color: $secondary-color;
+  font-family: 'Open Sans', sans-serif;
+ font-size: 1.1rem;
+}
+
+&-btn{
+text-decoration: none;
+  color:#ffc74d;
+  font-size: 2rem;
+  padding: 3rem 3rem;
+  margin: 4rem;
+
+  
+
+  &-png {
+    max-width: 2rem;
+    max-height: 2rem
+  
+  }
+
+}
+
+
+&-contenent{
+  float: left; width: 50%;
+
+//margin :2.5rem 0.25rem;
+  }
+}
