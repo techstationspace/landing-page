@@ -51,4 +51,55 @@ html {
   background-color: #7521d5;
 }
 
+.cover {
+  display: flex;
+  padding: 2rem;
+  box-sizing: border-box;
+  min-height: 800px;
+  max-width: 50%;
+  align-content: space-between;
+  background-color: #352857;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cover-background {
+  display: flex;
+  background-image: url(../../assets/background.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  max-width: 55%;
+}
+.cover-content {
+  max-width: 50%;
+}
+.cover-title {
+  color: #ffc74d;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 3rem;
+}
+.cover-subtitle {
+  color: #ffb53d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+.cover-btn {
+  padding: 1rem;
+  color: #ffc74d;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.cover-btn-arrow {
+  background-image: url(../../assets/download.png);
+  width: 3rem;
+  height: 3rem;
+}
+
 /*# sourceMappingURL=style.css.map */
