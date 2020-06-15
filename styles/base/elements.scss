@@ -1,11 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
+h2,
+h6,
+p {
+  text-shadow: 1px 1px 3px rgb(148, 147, 147);
+}
+
 html {
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 @include desktop {
   html {
