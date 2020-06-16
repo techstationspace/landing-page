@@ -9920,6 +9920,9 @@ h3 {
 .background-cover.homepage, .homepage.partner-card-logo {
   background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 }
+.background-cover.homepage2, .homepage2.partner-card-logo {
+  background-image: url("https://images.pexels.com/photos/7374/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
 .background-cover.banner, .banner.partner-card-logo {
   align-self: stretch;
   min-height: 10rem;
