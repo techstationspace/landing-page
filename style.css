@@ -9909,5 +9909,41 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.background-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-cover-right {
+  background-position: right center;
+}
+.background-cover.homepage {
+  background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+.background-cover.banner {
+  align-self: stretch;
+  min-height: 10rem;
+  background-image: url("https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+}
+.background-cover.main-cover .content {
+  min-height: 80vh;
+}
+.background-cover.half-height .content {
+  min-height: 50vh;
+}
+
+#banner {
+  margin-top: -2rem;
+}
+@media (min-width: 768px) {
+  #banner {
+    margin-top: -4rem;
+  }
+}
+@media (min-width: 992px) {
+  #banner {
+    margin-top: -5rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

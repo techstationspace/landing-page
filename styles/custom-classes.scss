@@ -1,0 +1,32 @@
+.background-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &-right {
+    background-position: right center;
+  }
+  &.homepage {
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  }
+  &.banner {
+    align-self: stretch;
+    min-height: 10rem;
+    background-image: url("https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  }
+  &.main-cover .content {
+    min-height: 80vh;
+  }
+  &.half-height .content {
+    min-height: 50vh;
+  }
+}
+
+#banner {
+  @include media-breakpoint-up(md) {
+    margin-top: -(4 * $spacer);
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: -(5 * $spacer);
+  }
+  margin-top: -(2 * $spacer);
+}
