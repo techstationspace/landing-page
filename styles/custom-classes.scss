@@ -30,3 +30,19 @@
   }
   margin-top: -(2 * $spacer);
 }
+
+.partner-card{
+  margin: 1rem;
+  border: radius .25rem;
+  &-logo{
+    width: 4rem;
+    height: 4rem;
+    @extend .background-cover;
+    margin: 0 auto;
+  }
+}
+
+.carousel-overflow {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}

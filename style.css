@@ -9909,7 +9909,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.background-cover {
+.background-cover, .partner-card-logo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9917,18 +9917,18 @@ h3 {
 .background-cover-right {
   background-position: right center;
 }
-.background-cover.homepage {
+.background-cover.homepage, .homepage.partner-card-logo {
   background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 }
-.background-cover.banner {
+.background-cover.banner, .banner.partner-card-logo {
   align-self: stretch;
   min-height: 10rem;
   background-image: url("https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
 }
-.background-cover.main-cover .content {
+.background-cover.main-cover .content, .main-cover.partner-card-logo .content {
   min-height: 80vh;
 }
-.background-cover.half-height .content {
+.background-cover.half-height .content, .half-height.partner-card-logo .content {
   min-height: 50vh;
 }
 
@@ -9944,6 +9944,21 @@ h3 {
   #banner {
     margin-top: -5rem;
   }
+}
+
+.partner-card {
+  margin: 1rem;
+  border: radius 0.25rem;
+}
+.partner-card-logo {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+}
+
+.carousel-overflow {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
 }
 
 /*# sourceMappingURL=style.css.map */
